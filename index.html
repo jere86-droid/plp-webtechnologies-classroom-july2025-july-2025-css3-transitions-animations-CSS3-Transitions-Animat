@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>✨ Bringing Web Pages to Life ✨</h1>
+
+  <!-- Part 1: Buttons with CSS hover effect -->
+  <button class="fancy-btn">Hover Me</button>
+
+  <!-- Part 2: Box controlled by JavaScript functions -->
+  <div id="box" class="box"></div>
+  <button onclick="moveBox(100)">Move Box</button>
+  <button onclick="resetBox()">Reset Box</button>
+
+  <!-- Part 3: Modal triggered by JS + CSS animations -->
+  <button id="openModal">Open Modal</button>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <p>Hello! 🎉 This is a modal with CSS + JS animation.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
